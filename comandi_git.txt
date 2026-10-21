@@ -1,0 +1,23 @@
+git init(inizializzo la cartella del progetto.
+	Verrà creata una cartella nascosta dove 
+	verranno tracciate modifiche e versioni
+	del progetto)
+git add (aggiungo/aggiorno del materiale, sia 
+	esso un file o una intera cartella, e chiedo a 
+	git di gestirlo perché possa essere parte del 	
+	progetto)
+git commit (creo una nuova versione del progetto basandomi 
+	    sui file puntati da git. Tra  le sue coordinate
+	    notiamo "-m", che serve ad aggiungere un 
+	    commento sulla versione da creare)
+git log (mi restituisce la cronologia dei commit, e quindi
+	delle versioni create. La cronologia parte dal
+	commit più recente fino a tornare alla prima
+	versione)
+git reset (comando che mi permette di tornare ad una
+	specifica revisione del codice. Può essere
+	irreversibile)
+git restore (se invocato riporta il file selezionato
+	     allo stato dell'ultima versione committata,
+	     sovrascrivendolo. Il file "modificato" non
+	      é recuperabile")
